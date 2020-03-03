@@ -1,10 +1,30 @@
 body {
-  text-align: center
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  font-family: 'Montserrat', cursive;
+}
+
+h3 {
+  font-family: 'Montserrat', cursive;
+}
+
+.title-text {
+  text-align: center;
+  /* margin: 0 auto; */
 }
 
 .top-container {
-  padding: 100px;
+  background-color: #E4F9F5;
   position: relative;
+  padding-top: 100px;
 }
 
 .top-cloud {
@@ -18,3 +38,7 @@ body {
   left: 300px;
   bottom: 300px;
 }
+
+/* .mountain {
+  display: block;
+} */
